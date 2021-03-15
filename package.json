@@ -1,0 +1,23 @@
+{
+  "name": "js-automation-ui-fluent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome test/e2e/register.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germandavid85/js-automation-ui-fluent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germandavid85/js-automation-ui-fluent/issues"
+  },
+  "homepage": "https://github.com/germandavid85/js-automation-ui-fluent#readme",
+  "devDependencies": {
+    "proxymise": "^1.0.2",
+    "testcafe": "^1.12.0"
+  }
+}
