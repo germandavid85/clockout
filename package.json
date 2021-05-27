@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome test/e2e/register.spec.js"
+    "test": "testcafe chrome test/e2e/jira.spec.js",
+    "do:record": "testcafe chrome:headless test/e2e/jira.spec.js --skip-js-errors"
   },
   "repository": {
     "type": "git",

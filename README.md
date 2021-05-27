@@ -1,3 +1,9 @@
-# js-automation-ui-fluent
+# clockout
 
-UI automation tests made with test cafe, using a combination of POM and fluent pattern bypassing the promises
+checkout jira records
+
+example
+
+```sh
+clockout dev "catch of the day" 1d "pj - pj"
+```
