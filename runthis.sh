@@ -8,7 +8,7 @@ cd $CLOCKOUT_HOME
 
 if [ -z "$project" ]
 then
-    npm run do:record -- "$type" "$comment" "$time"
+    npm run do:record -- "$type" "$comment" "$time" > /dev/null &
 else
-    npm run do:record -- "$type" "$comment" "$time" "$project"
+    npm run do:record -- "$type" "$comment" "$time" "$project" > /dev/null &
 fi

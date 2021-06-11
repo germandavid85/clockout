@@ -29,7 +29,6 @@ test('verify register', async (t) => {
       .click(placeOption.withText(place))
 
     if (projectRequired.includes(pTicketType)) {
-      console.log('pname', pProjectName)
       await t.click(projectSelector)
         .click(projectOption.withText(pProjectName));
     }
