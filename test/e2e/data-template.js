@@ -10,9 +10,5 @@ module.exports = {
     allTickets: tickets,
     baseUrl: '',
     user: '',
-    password: '',
-    ticket: {
-        date: null,
-        place: 'Remoto',
-    },
+    password: ''
 };
